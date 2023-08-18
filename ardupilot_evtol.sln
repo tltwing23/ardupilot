@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arduplane", "Arduplane", "{DCCC65A5-F482-4E41-973C-E6772CF924BB}"
+	ProjectSection(SolutionItems) = preProject
+		ArduPlane\afs_plane.cpp = ArduPlane\afs_plane.cpp
+		ArduPlane\afs_plane.h = ArduPlane\afs_plane.h
+		ArduPlane\altitude.cpp = ArduPlane\altitude.cpp
+		ArduPlane\AP_Arming.cpp = ArduPlane\AP_Arming.cpp
+		ArduPlane\AP_Arming.h = ArduPlane\AP_Arming.h
+		ArduPlane\ArduPlane.cpp = ArduPlane\ArduPlane.cpp
+		ArduPlane\Attitude.cpp = ArduPlane\Attitude.cpp
+		ArduPlane\avoidance_adsb.cpp = ArduPlane\avoidance_adsb.cpp
+		ArduPlane\avoidance_adsb.h = ArduPlane\avoidance_adsb.h
+		ArduPlane\commands.cpp = ArduPlane\commands.cpp
+		ArduPlane\commands_logic.cpp = ArduPlane\commands_logic.cpp
+		ArduPlane\config.h = ArduPlane\config.h
+		ArduPlane\control_modes.cpp = ArduPlane\control_modes.cpp
+		ArduPlane\createTags = ArduPlane\createTags
+		ArduPlane\defines.h = ArduPlane\defines.h
+		ArduPlane\ekf_check.cpp = ArduPlane\ekf_check.cpp
+		ArduPlane\events.cpp = ArduPlane\events.cpp
+		ArduPlane\failsafe.cpp = ArduPlane\failsafe.cpp
+		ArduPlane\fence.cpp = ArduPlane\fence.cpp
+		ArduPlane\GCS_Mavlink.cpp = ArduPlane\GCS_Mavlink.cpp
+		ArduPlane\GCS_Mavlink.h = ArduPlane\GCS_Mavlink.h
+		ArduPlane\GCS_Plane.cpp = ArduPlane\GCS_Plane.cpp
+		ArduPlane\GCS_Plane.h = ArduPlane\GCS_Plane.h
+		ArduPlane\is_flying.cpp = ArduPlane\is_flying.cpp
+		ArduPlane\Log.cpp = ArduPlane\Log.cpp
+		ArduPlane\Makefile.waf = ArduPlane\Makefile.waf
+		ArduPlane\mode.cpp = ArduPlane\mode.cpp
+		ArduPlane\mode.h = ArduPlane\mode.h
+		ArduPlane\mode_acro.cpp = ArduPlane\mode_acro.cpp
+		ArduPlane\mode_auto.cpp = ArduPlane\mode_auto.cpp
+		ArduPlane\mode_autotune.cpp = ArduPlane\mode_autotune.cpp
+		ArduPlane\mode_avoidADSB.cpp = ArduPlane\mode_avoidADSB.cpp
+		ArduPlane\mode_circle.cpp = ArduPlane\mode_circle.cpp
+		ArduPlane\mode_cruise.cpp = ArduPlane\mode_cruise.cpp
+		ArduPlane\mode_fbwa.cpp = ArduPlane\mode_fbwa.cpp
+		ArduPlane\mode_fbwb.cpp = ArduPlane\mode_fbwb.cpp
+		ArduPlane\mode_guided.cpp = ArduPlane\mode_guided.cpp
+		ArduPlane\mode_loiter.cpp = ArduPlane\mode_loiter.cpp
+		ArduPlane\mode_LoiterAltQLand.cpp = ArduPlane\mode_LoiterAltQLand.cpp
+		ArduPlane\mode_manual.cpp = ArduPlane\mode_manual.cpp
+		ArduPlane\mode_qacro.cpp = ArduPlane\mode_qacro.cpp
+		ArduPlane\mode_qautotune.cpp = ArduPlane\mode_qautotune.cpp
+		ArduPlane\mode_qhover.cpp = ArduPlane\mode_qhover.cpp
+		ArduPlane\mode_qland.cpp = ArduPlane\mode_qland.cpp
+		ArduPlane\mode_qloiter.cpp = ArduPlane\mode_qloiter.cpp
+		ArduPlane\mode_qrtl.cpp = ArduPlane\mode_qrtl.cpp
+		ArduPlane\mode_qstabilize.cpp = ArduPlane\mode_qstabilize.cpp
+		ArduPlane\mode_rtl.cpp = ArduPlane\mode_rtl.cpp
+		ArduPlane\mode_stabilize.cpp = ArduPlane\mode_stabilize.cpp
+		ArduPlane\mode_takeoff.cpp = ArduPlane\mode_takeoff.cpp
+		ArduPlane\mode_thermal.cpp = ArduPlane\mode_thermal.cpp
+		ArduPlane\mode_training.cpp = ArduPlane\mode_training.cpp
+		ArduPlane\motor_test.cpp = ArduPlane\motor_test.cpp
+		ArduPlane\navigation.cpp = ArduPlane\navigation.cpp
+		ArduPlane\parachute.cpp = ArduPlane\parachute.cpp
+		ArduPlane\Parameters.cpp = ArduPlane\Parameters.cpp
+		ArduPlane\Parameters.h = ArduPlane\Parameters.h
+		ArduPlane\Plane.cpp = ArduPlane\Plane.cpp
+		ArduPlane\Plane.h = ArduPlane\Plane.h
+		ArduPlane\qautotune.cpp = ArduPlane\qautotune.cpp
+		ArduPlane\qautotune.h = ArduPlane\qautotune.h
+		ArduPlane\quadplane.cpp = ArduPlane\quadplane.cpp
+		ArduPlane\quadplane.h = ArduPlane\quadplane.h
+		ArduPlane\radio.cpp = ArduPlane\radio.cpp
+		ArduPlane\RC_Channel.cpp = ArduPlane\RC_Channel.cpp
+		ArduPlane\RC_Channel.h = ArduPlane\RC_Channel.h
+		ArduPlane\ReleaseNotes.txt = ArduPlane\ReleaseNotes.txt
+		ArduPlane\reverse_thrust.cpp = ArduPlane\reverse_thrust.cpp
+		ArduPlane\sensors.cpp = ArduPlane\sensors.cpp
+		ArduPlane\servos.cpp = ArduPlane\servos.cpp
+		ArduPlane\soaring.cpp = ArduPlane\soaring.cpp
+		ArduPlane\system.cpp = ArduPlane\system.cpp
+		ArduPlane\tailsitter.cpp = ArduPlane\tailsitter.cpp
+		ArduPlane\tailsitter.h = ArduPlane\tailsitter.h
+		ArduPlane\takeoff.cpp = ArduPlane\takeoff.cpp
+		ArduPlane\tiltrotor.cpp = ArduPlane\tiltrotor.cpp
+		ArduPlane\tiltrotor.h = ArduPlane\tiltrotor.h
+		ArduPlane\transition.h = ArduPlane\transition.h
+		ArduPlane\tuning.cpp = ArduPlane\tuning.cpp
+		ArduPlane\tuning.h = ArduPlane\tuning.h
+		ArduPlane\version.h = ArduPlane\version.h
+		ArduPlane\wscript = ArduPlane\wscript
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E2140D8-A065-4C4B-9710-48D4F0AD7785}
+	EndGlobalSection
+EndGlobal
